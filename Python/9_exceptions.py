@@ -1,4 +1,5 @@
-#Ejemplo manejo de excepciones
+# Ejemplo manejo de excepciones
+
 
 def basic_errors():
     y = 0
@@ -17,5 +18,6 @@ def basic_errors():
             y = 2
         finally:
             print("Fin iteracion: ", i + 1)
+
 
 basic_errors()

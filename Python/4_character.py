@@ -10,8 +10,10 @@
 # 3. Crear 3 personajes llamados pj1, pj2 y pj3 (con el porcentaje de salud y poder que
 #    ustedes desee), pj1 debe atacar a pj2 y pj3
 
+
 class Character:
-    '''Clase Character'''
+    """Clase Character"""
+
     def __init__(self, nickname, life, damage, power):
         self.nickname = nickname
         self.life = life
@@ -24,6 +26,7 @@ class Character:
     def health(self):
         return self.life > 0
 
+
 # Programa principal
 p1 = Character("La momia", 100, 70, "Abrazo mortal")
 p2 = Character("La viuda negra", 100, 75, "Mordida venenosa")
@@ -32,10 +35,7 @@ p3 = Character("El cazador", 100, 65, "Hachazo")
 print(p1.nickname, " salud:", p1.health())
 print(p2.nickname, " salud:", p2.health())
 print()
-print("El personaje {} ataca al personaje {}".format(
-    p1.nickname,
-    p2.nickname
-))
+print("El personaje {} ataca al personaje {}".format(p1.nickname, p2.nickname))
 
 p1.attack(p2)
 
@@ -43,10 +43,7 @@ print()
 print(p1.nickname, " salud:", p1.health())
 print(p2.nickname, " salud:", p2.health())
 print()
-print("El personaje {} ataca al personaje {}".format(
-    p1.nickname,
-    p3.nickname
-))
+print("El personaje {} ataca al personaje {}".format(p1.nickname, p3.nickname))
 
 p1.attack(p3)
 
