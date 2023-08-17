@@ -44,3 +44,21 @@ class Ropa:
         self.tipo = tipo
         self.color = color
         self.precio = precio
+
+
+if __name__ == "__main__":
+    carrito = Carrito("Andrés")
+    ropa1 = Ropa("Camiseta", "Rojo", 19.99)
+    ropa2 = Ropa("Pantalón", "Azul", 29.99)
+    juguete = Juguete("Pelota", 9.99)
+
+    carrito.agregar(ropa1, 2)
+    carrito.agregar(ropa2, 1)
+    carrito.agregar(juguete, 1)
+
+    print(carrito)
+    print(f"Cantidad de productos en el carrito: {carrito.cantidad_total()}")
+    print(f"Monto total a pagar: {carrito.total_a_pagar()}")
+
+    carrito.vaciar()
+    print(f"El carrito está vacío: {carrito.esta_vacio()}")

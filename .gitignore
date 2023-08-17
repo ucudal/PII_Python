@@ -329,6 +329,10 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder
 .mfractor/
 
+# MacOS
+.DS_Store
+
 # De este proyecto
 archivo3.txt
 archivo4.txt
+vacunacion.txt
