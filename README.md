@@ -7,7 +7,7 @@ width="150"/>
 
 ### Programación II
 
-# Python a C #
+# Python a C#
 
 ## Objetivo
 
