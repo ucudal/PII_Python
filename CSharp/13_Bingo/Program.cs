@@ -1,16 +1,4 @@
-def tiene_bingo(carton: list[list[int]], numeros: list[int]):
-    # Unifico los números del carton en 1 sola lista
-    numeros_carton = [num for fila in carton for num in fila]
-
-    # Recorro esa lista y si alguno no esta en números
-    # entonces no tiene bingo.
-    for num in numeros_carton:
-        if num not in numeros:
-            return False
-    # Si están todos, tiene bingo.
-    return True
-
-print(
+﻿print(
     tiene_bingo(
         [[2, 12, 33, 45, 67], [5, 23, 45, 77, 86], [3, 34, 46, 56, 88, 97]],
         [
@@ -136,3 +124,15 @@ print(
         ],
     )
 )  # True
+
+
+// Implementa en esta clase la función que corresponda
+
+public static class Function
+{
+    public static void Greet()
+    {
+        // Reemplaza esto 👇por tu código 
+    }
+}
+

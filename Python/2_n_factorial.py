@@ -2,20 +2,20 @@
 # estructura WHILE y la estructura FOR.
 
 
-def factorial_for(n):
-    r = 1
-    for i in range(1, n + 1):
-        r = r * i
-    return r
+def factorial_for(number):
+    result = 1
+    for i in range(1, number + 1):
+        result = result * i
+    return result
 
 
-def factorial_while(n):
-    r = 1
+def factorial_while(number):
+    result = 1
     i = 1
-    while i <= n:
-        r = r * i
+    while i <= number:
+        result = result * i
         i += 1
-    return r
+    return result
 
 
 print(f"El factorial de 5 es: {factorial_for(5)}")
