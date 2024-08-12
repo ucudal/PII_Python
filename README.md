@@ -67,7 +67,7 @@ fecha de la forma “dd/mm/aaaa” y devuelve la fecha en formato “aaaa­‐mm
 Ejemplo: 10/11/1977 -> 1977­‐11­‐10
 
 > [!NOTE]
-> No se debe utilizar la función split de Python.
+> No se debe utilizar el método `string.Split()`.
 
 ## Ejercicio 5: sym diff
 
