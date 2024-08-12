@@ -19,6 +19,37 @@ que la queremos abrir. Luego ejecutan tanto el código en Python como en C# como
 hicieron en el ejericio [Pasando de Programación I a Programación
 II](https://github.com/ucudal/PII_P1_a_P2).
 
+## Rúbrica corrección
+
+La corrección de este ejercicio se hará entre pares usando la siguiente rúbrica:
+
+<table>
+  <tr>
+    <th width="20%">Ítem a evaluar</th>
+    <th width="20%">Perfecto</th>
+    <th width="20%">Bien</th>
+    <th width="20%">Mejorable</th>
+    <th width="20%">Mal</th>
+  </tr>
+  <tr>
+    <td>Funciona en C# igual que Python</td>
+    <td colspan="3">El programa hace lo mismo</td>
+    <td>El programa no hace lo mismo</td>
+  </tr>
+  <tr>
+    <td>Convenciones en C#</td>
+    <td>Sigue las convenciones de código</td>
+    <td colspan="2">Sigue algunas convenciones de código</td>
+    <td>No sigue las convenciones de código</td>
+  </tr>
+  <tr>
+    <td>Estructuras de control condicional o repetición condicional</td>
+    <td>La estructura es la más adecuada</td>
+    <td colspan="2">La estructura fuciona pero no es la más adecuada</td>
+    <td>La estructura de control no es la adecuada</td>
+  </tr>
+</table>
+
 ## Ejercicio 1: año bisiesto
 
 Crear una función que determine si un año es bisiesto o no.
