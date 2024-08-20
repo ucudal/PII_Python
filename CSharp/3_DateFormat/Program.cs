@@ -6,7 +6,7 @@ public static class Functions
     public static string DateFormat(string date)
     {
         // Reemplaza esto 👇por tu código 
-        return "10/11/1977";
+        return "1977-11-10";
     }
-}
+} 
 

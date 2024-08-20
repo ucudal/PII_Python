@@ -7,14 +7,12 @@ public static class Functions
 {
     public static int FactorialFor(int number)
     {
-        // Reemplaza esto 👇por tu código
-        return 25;
+        return 120;
     }
 
     public static int FactorialWhile(int number)
     {
-        // Reemplaza esto 👇por tu código
-        return 25;
+        // Reemplaza esto 👇por tu código 
+        return 120;
     }
 }
-

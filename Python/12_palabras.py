@@ -1,9 +1,3 @@
-print(buscar_palabras("Hola Mundo", "Mundo"))
-print(buscar_palabras("Hola Mundo", "Python"))
-print(
-    buscar_palabras("Primero resuelve el problema y luego escribe el código", "el")
-)
-
 def buscar_palabras(frase: str, palabra: str):
     palabras = frase.split()
     posiciones = []
@@ -14,3 +8,9 @@ def buscar_palabras(frase: str, palabra: str):
             posiciones.append(i)
 
     return posiciones
+
+print(buscar_palabras("Hola Mundo", "Mundo"))
+print(buscar_palabras("Hola Mundo", "Python"))
+print(
+    buscar_palabras("Primero resuelve el problema y luego escribe el código", "el")
+)
